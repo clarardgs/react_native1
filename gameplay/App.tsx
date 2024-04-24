@@ -5,8 +5,8 @@ export  default function app (){
 
 return (
    <View>
-      <Text></Text>
-   </View>
+      <Text>Clara</Text>
+   </View> 
  );
-
+ 
 }
