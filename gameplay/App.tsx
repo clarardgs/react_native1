@@ -1,12 +1,12 @@
 import React from 'react';
-import {View,Text} from 'react-native';
+import {View,Text} from 'react-native'
 
-export  default function app (){
+export default function Signin(){
+   return (
+  <View>
 
-return (
-   <View>
-      <Text>Clara</Text>
-   </View> 
- );
- 
-}
+   <Text>Clarinha</Text>
+   </View>
+
+   );
+
