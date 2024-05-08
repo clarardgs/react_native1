@@ -1,7 +1,7 @@
 import React from 'react';
 import {View,Text} from 'react-native'
 
-export default function Signin(){
+export default function app(){
    return (
   <View>
 
@@ -9,4 +9,4 @@ export default function Signin(){
    </View>
 
    );
-
+}
