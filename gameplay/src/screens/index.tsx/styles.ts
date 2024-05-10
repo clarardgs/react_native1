@@ -1,10 +1,9 @@
 import {StyleSheet} from "react-native";
 
-export const styles = StyleSheet.creat({
- 
+export const styles = StyLeSheet.create({
         container:{
             flex:1,
-            backgroundColor:'brown'
+            backgroundColor:"black",
+            justify
         }
     })  
-
