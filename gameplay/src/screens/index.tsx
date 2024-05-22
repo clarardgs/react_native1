@@ -1,19 +1,17 @@
-impport React from "react";
-import {View,Text} from 'react native'
-import {styles} from  './styles'
+import React from "react";
+import {View,Text,TextInput,image} from 'react native'
+import {styles} from  './styles';
+import illustrationImg from '../../src/screens/assets/illustrationImg.png';
 export function  signIn() {
-   const [text,setText] = useState ("nada digitado ainda");
+
+    const [text,setText] = useState ("nada digitado ainda");
 
     return (
+
         <View style={styles.container}>
-        <Text> Clarinha </Text>
+          <image source={}/>
 
-        <TextInput style={styles.input} anchangeText={setText}>
-
-        <Text>
-        digitou: {text}
-        </Text>
-     </View>
-
+      </View>
     );
 }
+
